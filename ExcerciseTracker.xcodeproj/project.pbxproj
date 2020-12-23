@@ -14,6 +14,17 @@
 		1833FF5625875D2C00874CEC /* ExcerciseTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1833FF5425875D2C00874CEC /* ExcerciseTracker.xcdatamodeld */; };
 		1833FF5825875D2F00874CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1833FF5725875D2F00874CEC /* Assets.xcassets */; };
 		1833FF5B25875D2F00874CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1833FF5925875D2F00874CEC /* LaunchScreen.storyboard */; };
+		1833FF6825876F9B00874CEC /* ExcerciseModel 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1833FF6725876F9B00874CEC /* ExcerciseModel 1.mlmodel */; };
+		1833FF6B258784AA00874CEC /* Prediction + Poses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833FF6A258784AA00874CEC /* Prediction + Poses.swift */; };
+		1896034C2591B88A009632E1 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896034B2591B88A009632E1 /* Common.swift */; };
+		189603572591B917009632E1 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896034F2591B917009632E1 /* DashboardView.swift */; };
+		189603582591B917009632E1 /* VideoOutputViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189603502591B917009632E1 /* VideoOutputViews.swift */; };
+		189603592591B917009632E1 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189603512591B917009632E1 /* ProgressView.swift */; };
+		1896035A2591B917009632E1 /* JointSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189603522591B917009632E1 /* JointSegmentView.swift */; };
+		1896035B2591B917009632E1 /* TrajectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189603532591B917009632E1 /* TrajectoryView.swift */; };
+		1896035C2591B917009632E1 /* AnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189603542591B917009632E1 /* AnimatedTransitioning.swift */; };
+		1896035D2591B917009632E1 /* OverlayLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189603552591B917009632E1 /* OverlayLabel.swift */; };
+		1896035E2591B917009632E1 /* BoundingBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189603562591B917009632E1 /* BoundingBoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,17 @@
 		1833FF5725875D2F00874CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1833FF5A25875D2F00874CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1833FF5C25875D2F00874CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1833FF6725876F9B00874CEC /* ExcerciseModel 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "ExcerciseModel 1.mlmodel"; sourceTree = "<group>"; };
+		1833FF6A258784AA00874CEC /* Prediction + Poses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prediction + Poses.swift"; sourceTree = "<group>"; };
+		1896034B2591B88A009632E1 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		1896034F2591B917009632E1 /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		189603502591B917009632E1 /* VideoOutputViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoOutputViews.swift; sourceTree = "<group>"; };
+		189603512591B917009632E1 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		189603522591B917009632E1 /* JointSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JointSegmentView.swift; sourceTree = "<group>"; };
+		189603532591B917009632E1 /* TrajectoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrajectoryView.swift; sourceTree = "<group>"; };
+		189603542591B917009632E1 /* AnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTransitioning.swift; sourceTree = "<group>"; };
+		189603552591B917009632E1 /* OverlayLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayLabel.swift; sourceTree = "<group>"; };
+		189603562591B917009632E1 /* BoundingBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoundingBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +83,32 @@
 				1833FF4B25875D2C00874CEC /* AppDelegate.swift */,
 				1833FF4D25875D2C00874CEC /* SceneDelegate.swift */,
 				1833FF4F25875D2C00874CEC /* ViewController.swift */,
+				1896034B2591B88A009632E1 /* Common.swift */,
+				1833FF6725876F9B00874CEC /* ExcerciseModel 1.mlmodel */,
 				1833FF5125875D2C00874CEC /* Main.storyboard */,
 				1833FF5725875D2F00874CEC /* Assets.xcassets */,
 				1833FF5925875D2F00874CEC /* LaunchScreen.storyboard */,
 				1833FF5C25875D2F00874CEC /* Info.plist */,
 				1833FF5425875D2C00874CEC /* ExcerciseTracker.xcdatamodeld */,
+				1833FF6A258784AA00874CEC /* Prediction + Poses.swift */,
+				1896034E2591B917009632E1 /* Views */,
 			);
 			path = ExcerciseTracker;
+			sourceTree = "<group>";
+		};
+		1896034E2591B917009632E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1896034F2591B917009632E1 /* DashboardView.swift */,
+				189603502591B917009632E1 /* VideoOutputViews.swift */,
+				189603512591B917009632E1 /* ProgressView.swift */,
+				189603522591B917009632E1 /* JointSegmentView.swift */,
+				189603532591B917009632E1 /* TrajectoryView.swift */,
+				189603542591B917009632E1 /* AnimatedTransitioning.swift */,
+				189603552591B917009632E1 /* OverlayLabel.swift */,
+				189603562591B917009632E1 /* BoundingBoxView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +182,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				1833FF5625875D2C00874CEC /* ExcerciseTracker.xcdatamodeld in Sources */,
+				1896035B2591B917009632E1 /* TrajectoryView.swift in Sources */,
+				1896035E2591B917009632E1 /* BoundingBoxView.swift in Sources */,
+				1896035A2591B917009632E1 /* JointSegmentView.swift in Sources */,
+				189603582591B917009632E1 /* VideoOutputViews.swift in Sources */,
+				1896035C2591B917009632E1 /* AnimatedTransitioning.swift in Sources */,
+				189603572591B917009632E1 /* DashboardView.swift in Sources */,
 				1833FF5025875D2C00874CEC /* ViewController.swift in Sources */,
+				1833FF6825876F9B00874CEC /* ExcerciseModel 1.mlmodel in Sources */,
 				1833FF4C25875D2C00874CEC /* AppDelegate.swift in Sources */,
 				1833FF4E25875D2C00874CEC /* SceneDelegate.swift in Sources */,
+				189603592591B917009632E1 /* ProgressView.swift in Sources */,
+				1896035D2591B917009632E1 /* OverlayLabel.swift in Sources */,
+				1833FF6B258784AA00874CEC /* Prediction + Poses.swift in Sources */,
+				1896034C2591B88A009632E1 /* Common.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9MYTP3CKZY;
 				INFOPLIST_FILE = ExcerciseTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +365,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9MYTP3CKZY;
 				INFOPLIST_FILE = ExcerciseTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
